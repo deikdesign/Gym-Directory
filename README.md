@@ -1,2 +1,2 @@
-# School-Directory
+# Gym-Directory
 Capstone final project - School Directory
