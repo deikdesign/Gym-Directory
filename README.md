@@ -57,3 +57,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
+=======
+# Gym-Directory
+Capstone final project - School Directory
