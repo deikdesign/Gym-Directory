@@ -15,10 +15,8 @@
     <header>
         <nav class="nav-gym d-flex">
             <div class="logo-nav ml-15 ">
-                <a href="index.html">
-                    <span><i class="fas fa-dumbbell"></i><a href="#" class="n-deco c-white ml-5">Gym Directory
+                    <span><i class="fas fa-dumbbell"></i><a href="index.html" class="n-deco c-white ml-5">Gym Directory
                         </a></span>
-                </a>
             </div>
             <ul class="nav-list list-n d-flex sp-btw">
                 <li><i class="fas fa-search"></i><a href="#" class="ml-5 n-deco c-white"> GYMS </a></li>
@@ -32,17 +30,17 @@
                 <h2>GYM DIRECTORY... YOUR GATEWAY TO GYMS IN SOFIA</h2>
                 <div class="form-cont d-flex">
                     <form class="form" action="action_page.php">
-                        <label for="search">SEARCH BY KEYWORD:</label>
+                        <label id="search">SEARCH BY KEYWORD:</label>
                         <div class="input-search d-flex">
-                            <input class="input-s " type="text" placeholder="...Search" id="search-input" name="search">
-                            <button class="button" type="submit" ><a href="./page/find_results.html" class="n-deco c-white">SEARCH</a> </button>
+                            <input class="input-s " type="text" placeholder="...Search"  name="search">
+                            <input class="button n-deco c-white " type="button" value="SEARCH" onclick="window.location.href='./page/find_results.html'">
                         </div>
                     </form>
                 </div>
 
             </div>
             <div class="how-it d-flex">
-                <button type="submit">How it works</i></button>
+                <button type="submit">How it works</button>
             </div>
         </div>
     </header>
@@ -87,37 +85,37 @@
             <div class="main-frames">
                 <div class="cont1  bg-redp c-white">
                     <div class="sub-cont">
-                        <div class="image-c">
+                        <div class="image-c image-c12 ">
                             <img src="/images/fitnes-3.jpg" alt="">
                         </div>
                         <div class="text-c1">
                             <h3>Over 10,000 gyms registered with us</h3>
                             <p>Find a gym by using filtered search engine</p>
-                            <button input class="button c-redp" type="submit">Find a gym</button>
+                            <button class="button c-redp" type="submit">Find a gym</button>
                         </div>
                     </div>
                 </div>
                 <div class="cont1  bg-gray c-white">
                     <div class="sub-cont">
-                        <div class="image-c">
+                        <div class="image-c image-c12">
                             <img src="/images/842217780.jpg" alt="">
                         </div>
                         <div class="text-c1">
                             <h3>No need to take transport to find a gym in the city</h3>
                             <p>Just press or click on the search button and you are all set</p>
-                            <button input class="button c-redp" type="submit">Find a gym</button>
+                            <button class="button c-redp" type="submit">Find a gym</button>
                         </div>
                     </div>
                 </div>
                 <div class="cont2  bg-blue c-white">
                     <div class="sub-cont">
-                        <div class="image-c">
+                        <div class="image-c image-c12 ">
                             <img src="/images/mobile-gym.jpg" alt="">
                         </div>
                         <div class="text-c1">
                             <h3>Anytime Anywhere Any way!</h3>
                             <p>Just press or click on the search button and you are all set</p>
-                            <button input class="button c-redp" type="submit">Find a gym</button>
+                            <button class="button c-redp" type="submit">Find a gym</button>
                         </div>
                     </div>
                 </div>
@@ -154,8 +152,7 @@
                         <form class="form-cont1 " action="action_page.php">
                             <h3>SUBSCRIBE:</h3>
                             <div class="input-search d-flex">
-                                <input class="input-a " type="text" placeholder="youremail@example.com"
-                                    id="search-input" name="search">
+                                <input class="input-a " type="text" placeholder="youremail@example.com" name="search">
                                 <button class="button" type="submit">send</button>
                             </div>
                         </form>
