@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://deikdesign.github.io/Gym-Directory/page/fitness_page.html)
+[Live Demo Link](https://deikdesign.github.io/Gym-Directory/index.html)
 
 ## Getting Started
 
