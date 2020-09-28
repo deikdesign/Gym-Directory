@@ -44,6 +44,7 @@ Run `npx html-validator-cli --quiet --file index.html` to run the validator over
 
 👤 **Deyan Todorov**
 - Github: [@deikdesign](https://github.com/deikdesign)
+- Twitter [@deikdesign](https://twitter.com/deikdesign)
 
 
 ## 🤝 Contributing
@@ -58,7 +59,6 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - GitHub
-- Bootstrap
 - [Mathew Njuguna and Sam Achola](https://www.behance.net/gallery/25563385/PatashuleKE) for the design guide.
 
 ## 📝 License
