@@ -17,7 +17,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://deikdesign.github.io/Gym-Directory/index.html)
+[Live Demo Link index](https://deikdesign.github.io/Gym-Directory/index.html)
+[Live Demo Link search](https://deikdesign.github.io/Gym-Directory/page/find_results.html)
+[Live Demo Link details](https://deikdesign.github.io/Gym-Directory/page/fitness_page.html)
 
 ## Getting Started
 
@@ -54,9 +56,12 @@ Feel free to check the [issues page](https://github.com/deikdesign/Gym-Directory
 
 Give a ⭐️ if you like this project!
 
+- Microverse
+- GitHub
+- Bootstrap
+- [Mathew Njuguna and Sam Achola](https://www.behance.net/gallery/25563385/PatashuleKE) for the design guide.
+
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
-=======
-# Gym-Directory
-Capstone final project - School Directory
+
