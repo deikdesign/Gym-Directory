@@ -21,6 +21,10 @@
 - [Live Demo Link search](https://deikdesign.github.io/Gym-Directory/page/find_results.html)
 - [Live Demo Link details](https://deikdesign.github.io/Gym-Directory/page/fitness_page.html)
 
+## Video Description
+
+- [Video Description Link](https://www.loom.com/share/8e18fba1ee484abcba3d669474cc733a)
+
 ## Getting Started
 
  To get a local copy up and running follow these simple example steps.
