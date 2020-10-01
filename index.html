@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0eaab31a39.js" crossorigin="anonymous"></script>
+    <title>GYM Directory - capstone project</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-gym d-flex">
+            <div class="logo-nav ml-15 ">
+                <span><i class="fas fa-dumbbell"></i><a href="index.html" class="n-deco c-white ml-5">Gym Directory
+                    </a></span>
+            </div>
+            <ul class="nav-list list-n d-flex sp-btw">
+                <li><i class="fas fa-search"></i><a href="./page/find_results.html" class="ml-5 n-deco c-white"> GYMS </a></li>
+                <li><i class="fas fa-user"></i><a href="#" class="ml-5 n-deco c-white">ABOUT</a></li>
+                <li><i class="fas fa-rss"></i><a href="#" class="ml-5 n-deco c-white">BLOG</a></li>
+                <li><i class="fas fa-bars"></i><a href="#" class="ml-5 n-deco c-white">MORE...</a></li>
+            </ul>
+        </nav>
+        <div class="display-search ">
+            <div class="display-elements d-flex">
+                <h1>GYM DIRECTORY... YOUR GATEWAY TO GYMS IN SOFIA</h1>
+                <div class="form-cont d-flex">
+                    <form class="form" action="action_page.php">
+                        <label id="search">SEARCH BY KEYWORD:</label>
+                        <div class="input-search d-flex">
+                            <input class="input-s " type="text" placeholder="...Search" name="search">
+                            <input class="button n-deco c-white " type="button" value="SEARCH"
+                                onclick="window.location.href='./page/find_results.html'">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="how-it d-flex">
+                <button type="submit" onclick="window.location.href='./page/find_results.html'">How it works</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="">
+            <h2 class="t-center c-redp "> GYM LOCATOR WORKS IN FOUR SIMPLE STEPS</h2>
+            <div class="main-locator d-flex f-column">
+                <div class="box1">
+                    <i class="fas fa-search-location" style="color: black;font-size: 2rem;"></i>
+                    <h4>1-SEARCH</h4>
+                    <p>It's simple. On Gym Locator homepage, enter the <br>
+                        name of a schoold you are looking for and click on<br>
+                        search. Alternatively click on the search link on the <br>
+                        top menu to view the list of schools</p>
+                </div>
+                <div class="box2">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h4>2-LOCATE</h4>
+                    <p>Get to see where the Gym is located by clicking<br>
+                        on the Gym profile. It's even more exciting. You<br>
+                        can get the directions from anywhere in the <br>
+                        country</p>
+                </div>
+                <div class="box3">
+                    <i class="fas fa-file-signature"></i>
+                    <h4>3-APPLY</h4>
+                    <p>Apply for your child's interview to the school of<br>
+                        your choice. Click on the APPLY button to get the<br>
+                        application from. We also follow up on the<br>
+                        application to make sure you get a reply in time</p>
+                </div>
+                <div class="box4">
+                    <i class="fas fa-cocktail"></i>
+                    <h4>4-RELAX</h4>
+                    <p>Once your child gets admitted. You can now relax.<br>
+                        You can check out our blog to see what we<br>
+                        recommend when gym starts <br></p>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="main-frames">
+                <div class="cont1  bg-redp c-white">
+                    <div class="sub-cont">
+                        <div class="image-c image-c12 ">
+                            <img src="./images/fitnes-3.jpg" alt="">
+                        </div>
+                        <div class="text-c1">
+                            <h3>Over 10,000 gyms registered with us</h3>
+                            <p>Find a gym by using filtered search engine</p>
+                            <button class="button c-redp" type="submit"
+                                onclick="window.location.href='./page/find_results.html'">Find a gym</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont1  bg-gray c-white">
+                    <div class="sub-cont">
+                        <div class="image-c image-c12">
+                            <img src="./images/842217780.jpg" alt="">
+                        </div>
+                        <div class="text-c1">
+                            <h3>No need to take transport to find a gym in the city</h3>
+                            <p>Just press or click on the search button and you are all set</p>
+                            <button class="button c-redp" type="submit"
+                                onclick="window.location.href='./page/find_results.html'">Find a gym near you</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont2  bg-blue c-white">
+                    <div class="sub-cont">
+                        <div class="image-c image-c12 ">
+                            <img src="./images/mobile-gym.jpg" alt="">
+                        </div>
+                        <div class="text-c1">
+                            <h3>Anytime Anywhere Any way!</h3>
+                            <p>Just press or click on the search button and you are all set</p>
+                            <button class="button c-redp" type="submit"
+                                onclick="window.location.href='./page/find_results.html'">Find a gym</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="">
+        <div class="main-container ">
+            <div class="subscribe ">
+                <div class=" about">
+                    <div class="main-navlist">
+                        <div class="nav-list-cont">
+                            <ul class="nav-list d-flex wrap">
+                                <li>HOME</li>
+                                <li>SEARCH</li>
+                                <li>ABOUT US</li>
+                                <li>ADVERTISE</li>
+                            </ul>
+                        </div>
+                        <div class="icon-f "> <i class="fas fa-map-pin"></i></div>
+                        <div>
+                            <ul class="nav-list  d-flex wrap">
+                                <li>FACEBOOK</li>
+                                <li>TWITTER</li>
+                                <li>BLOG</li>
+                                <li>GOOGLE+</li>
+                            </ul>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="subs-cont-flex ">
+                    <div class="subs-cont">
+                        <div class=" sub-form cont-border">
+                            <form class="form-cont1 " action="action_page.php">
+                                <h3>SUBSCRIBE:</h3>
+                                <div class="input-search d-flex">
+                                    <input class="input-a " type="text" placeholder="youremail@example.com"
+                                        name="search">
+                                    <button class="button" type="submit">send</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class=" contact-cont  cont-border">
+                            <h3 class="c-white">CONTACT</h3>
+                            <p class="c-white">Have a question or suggestion?</p>
+                            <p><a href="#" class="c-redp">info@gymdirectory.com</a></p>
+                        </div>
+                        <div class=" about-cont cont-border">
+                            <h3 class="c-white">About</h3>
+                            <p class="c-white">Gym Directory is a project that was built based on the needs of
+                                the population. In these fast paced work environment.
+                                Finding a near gym will fit to your schedule. We provide you a help to solve your
+                                needs.
+                                <a href="" class="c-redp">Learn more here...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cont3  social-media ">
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-google-play"></i>
+                    <i class="fab fa-tumblr"></i>
+                </div>
+                <div class="right-footer">
+                    <p>COPYRIGHT © 2020 PATASHULE INC. ALL RIGHTS RESERVED.</p>
+                    <p><a href="https://www.behance.net/gallery/25563385/PatashuleKE" class="n-deco c-white">&nbsp; More info HERE</a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
